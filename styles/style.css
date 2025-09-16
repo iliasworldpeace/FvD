@@ -1,0 +1,83 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+
+
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text:#222222;
+	--color-background:#eee;
+	--button-color:#004C4C;
+	--altbutton-color:#FFD200;
+}
+
+a{
+	font-family: Abnamrosans;
+}
+
+@font-face{
+	font-family: "Abnamrosans";
+	src: url(../fonts/ABNAMROSans-Regular.otf)
+}
+
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+/* jouw code */
+
+nav{
+	display:grid;
+	grid-template-areas: "logo descriptor segments user-icons";
+	grid-template-columns: auto 1fr 5fr auto;
+	grid-template-rows: 5.5rem;
+	justify-content: center;
+}
+
+.logo{
+	grid-area:logo;
+	width: 129px;
+}
+
+.navlinks{
+	margin-left: 39px;
+	grid-area:segments;
+}
+
+.navlinks li:nth-of-type(3){
+	justify-self: end;
+}
+
+.navlinks a{
+	margin-left:1em;
+	color:var(--color-text);
+	text-decoration: none;
+}
+
+.navlinks a:hover{
+	color: var(--button-color);
+}
+
+.login{
+	font-family: "Abnamrosans";
+	width: 130px;
+	height:40px;
+	grid-area:user-icons;
+	background-color:var(--button-color);
+	border-radius: .5em;
+	color:white;
+	border: none;
+	font-weight: 500;
+}
