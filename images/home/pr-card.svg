@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="PRODUCT_ICONS" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #66c7c0;
+      }
+
+      .cls-2 {
+        fill: #33b5ab;
+      }
+
+      .cls-3 {
+        fill: #00716b;
+      }
+
+      .cls-4 {
+        fill: #f3c000;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <rect class="cls-3" x="9" y="19" width="54" height="34" rx="4" ry="4"/>
+  <rect class="cls-5" x="13" y="34" width="46" height="4" rx="2" ry="2"/>
+  <circle class="cls-4" cx="16.5" cy="45.5" r="3.5"/>
+  <rect class="cls-1" x="21" y="24" width="42" height="6"/>
+  <polygon class="cls-2" points="31 30 9 30 9 24 24 24 31 30"/>
+</svg>
