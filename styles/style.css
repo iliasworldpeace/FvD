@@ -1,34 +1,7 @@
-/**************/
-/* CSS REMEDY */
-/**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
-}
-
-
-
-
-
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
-:root {
-	/* startje */
-	--color-text:#222222;
-	--color-background:#eee;
-	--button-color:#004C4C;
-	--altbutton-color:#FFD200;
-}
 
-a{
-	font-family: Abnamrosans;
-}
-
-@font-face{
-	font-family: "Abnamrosans";
-	src: url(../fonts/ABNAMROSans-Regular.otf)
-}
 
 
 
@@ -36,48 +9,132 @@ a{
 /* JOUW STYLING */
 /****************/
 
-/* jouw code */
 
-nav{
-	display:grid;
-	grid-template-areas: "logo descriptor segments user-icons";
-	grid-template-columns: auto 1fr 5fr auto;
-	grid-template-rows: 5.5rem;
+
+body>section:first-of-type {
+	position: relative;
+	display: flex;
 	justify-content: center;
+	height: 400px;
 }
 
-.logo{
-	grid-area:logo;
-	width: 129px;
+/* 
+body>section:first-of-type div{
+padding:1%;
+} */
+
+/****************/
+/* titel banner*/
+/****************/
+
+body>section:first-of-type div {
+	background-color: var(--abn-darkgreen);
+	border-radius: 10px;
+	padding: 4%;
+	margin-bottom: none;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 40%;
+	width: 90%;
+	height: auto;
 }
 
-.navlinks{
-	margin-left: 39px;
-	grid-area:segments;
-}
-
-.navlinks{
-	justify-self: end;
-}
-
-.navlinks a{
-	margin-left:1em;
-	color:var(--color-text);
-	text-decoration: none;
-}
-
-.navlinks a:hover{
-	color: var(--button-color);
-}
-
-.login{
-	font-family: "Abnamrosans";
-	width: 130px;
-	height:40px;
-	grid-area:user-icons;
-	background-color:var(--button-color);
-	border-radius: .5em;
-	color:white;
-	border: none;
+body>section:first-of-type div h2 {
+	font-family: Abnamrosans;
 	font-weight: 500;
+	font-size: xx-large;
+	color: white;
+	margin: 0;
+}
+
+body>section:first-of-type div button {
+	width: 100%;
+	height: 2.5rem;
+	background-color: #ffd200;
+	font-size: 1rem;
+	font-weight: 575;
+	border-style: none;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body>section:first-of-type div p {
+	color: #ffffff;
+
+
+}
+
+body>section:first-of-type img {
+	position: relative;
+	/* scrolls with page */
+	width: 100vw;
+	/* full viewport width */
+	height: 200px;
+	object-fit: cover;
+}
+
+/****************/
+/* Search bar */
+/****************/
+body>section:nth-of-type(2) {
+	display: flex;
+	flex-direction: column;
+}
+
+body>section:nth-of-type(2) h2 {
+	font-weight: 500;
+	margin: none;
+}
+
+body>section:nth-of-type(2) p {
+	font-size: 20px;
+	margin: none;
+
+}
+
+body>section:nth-of-type(2) input {
+	border-style: none;
+	color: #6c6c6c;
+	background-color: #e9e9e9;
+	font-family: abnamrosans;
+	font-size: large;
+	height: 2.5em;
+	width: 95%;
+	border-radius: 5px;
+}
+
+/****************/
+/* Search bar */
+/****************/
+body>section:nth-of-type(3) ul {
+	list-style-type: none;
+
+}
+
+body>section:nth-of-type(3) ul li {
+	background-color: white;
+	border-radius: .5rem;
+}
+
+body>section:nth-of-type(3) ul li a {
+	color: black;
+	font-size: larger;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	border-radius: .5rem;
+
+	margin-bottom: 1em;
+	padding: 1em;
+
+}
+
+body>section:nth-of-type(3) ul li a img {
+	width: 4rem;
+}
+
+body>section:nth-of-type(3) ul li a:hover {
+	background-color: #c8c8c8;
 }

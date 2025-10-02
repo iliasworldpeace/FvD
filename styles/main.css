@@ -1,0 +1,143 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+/********************************************
+algemene css
+********************************************/
+
+
+
+:root {
+	/* startje */
+	--color-text: #222222;
+	--color-background: #eee;
+	--abn-darkgreen: #004C4C;
+	--altbutton-color: #FFD200;
+    font-family: abnamrosans;
+    background-color: #f3f3f3;
+}
+
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+
+
+
+img {
+	max-width: 100%;
+}
+
+/********************************************
+css voor nav
+********************************************/
+
+
+nav {
+	display: grid;
+	grid-template-areas:
+		"a b c"
+		"d e f";
+	grid-template-columns: auto 1fr 1fr;
+	grid-template-rows: 3.75rem 4.5rem;
+}
+
+nav button {
+	display: flex;
+	align-items: center;
+	border: none;
+	background-color: none;
+	background: none;
+	font-weight: 600;
+	color: #004C4C;
+	font-size: 1em;
+}
+
+nav:nth-of-type(1) ul {
+	display: contents;
+	list-style-type: none;
+}
+
+
+
+nav ul li:nth-of-type(3) {
+	grid-area: f;
+	justify-self: end;
+	/* aligns the buttons container to the right of the cell */
+	align-self: start;
+	/* optional vertical alignment */
+}
+
+nav ul li:nth-of-type(2) {
+	grid-area: c;
+	justify-self: end;
+}
+
+nav ul li:nth-of-type(3) ul {
+	display: flex;
+}
+
+nav ul li:nth-of-type(3) ul button {
+	height: 2.5rem;
+	width: 2.5rem;
+	display: flex;
+	align-items: center;
+	justify-items: center;
+}
+
+
+nav ul li:nth-of-type(3) ul button:hover {
+	background-color: #a7a7a7;
+	border-radius: 20%;
+}
+
+nav svg {
+	stroke: black;
+	height: 3rem;
+}
+
+nav ul li button img {
+	width: 2rem;
+}
+
+nav ul li ul li button>svg:first-of-type {
+	stroke: var(--abn-darkgreen);
+	stroke-width: .005em;
+	vertical-align: middle;
+	justify-self: center;
+}
+
+nav:nth-of-type(1) ul li ul>li:nth-of-type(3) button{
+	/* background-color: #004C4C; */
+	display: flex;
+	align-items: center;
+	justify-items: center;
+}
+
+nav>img:first-of-type {
+	grid-area: d;
+	height: 2.2rem;
+	max-width: none;
+}
+
+nav:nth-of-type(1) ul a {
+	margin-left: 1em;
+	color: var(--color-text);
+	text-decoration: none;
+}
+
+nav:nth-of-type(1) ul a:hover {
+	color: var(--abn-darkgreen);
+}
