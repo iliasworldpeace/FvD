@@ -8,28 +8,60 @@
 
 	<title>ABN AMRO Bank - ABN AMRO</title>
 
-	<link href="styles/style.css" rel="stylesheet">
+
 	<link href="styles/main.css" rel="stylesheet">
+	<link href="styles/style.css" rel="stylesheet">
 	<link href="styles/fonts.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
+<!-- <nav>
+	<ul>
+		<li><img href="images/home/ABNAMRO.png"></li>
+		<ul>
+			<li><a href="#">Privé</a></li>
+			<li><a href="#">Zakelijk</a></li>
+			<li><a href="#">Private banking</a></li>
+			<li><a href="#">English</a></li>
+		</ul>
+		<li><button><img src="images/home/pr-lock.svg"></button></li>
+	</ul>
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><button>Producten <img src="images/home/arrowdown.svg"></button></li>
+		<li><button>Je situatie <img src="images/home/arrowdown.svg"></button></li>
+		<li><button>App en Internet Bankieren <img src="images/home/arrowdown.svg"></button></li>
+		<li><a href="#">Service en Contact</a></li>
+	</ul> 
+</nav> -->
 
 <body>
+
 	<header>
 		<h1 class="visually-hidden">ABN Amro Bank</h1>
 	</header>
 	<nav>
-		<img src="images/home/ABNAMRO.png" alt="abn amro logo">
+		<img src="images/home/logo.svg" alt="abn amro logo">
 		<ul>
-			<li><button><img src="images/home/arrowdown.svg" alt="">NL</button></li>
-			<li><button><img src="images/home/arrowdown.svg" alt="">Privé</button></li>
+			<li><button alt="taal kiezen"><img src="images/home/arrowdown.svg" alt="">NL</button>
+				<ul class="menu">
+					<li>English</li>
+					<li>Nederlands</li>
+				</ul>
+			</li>
+			<li><button alt=""><img src="images/home/arrowdown.svg" alt="">Privé</button>
+				<ul>
+					<li>Privé</li>
+					<li>Zakelijk</li>
+					<li>Private banking</li>
+				</ul>
+			</li>
 			<li>
 				<ul>
 
 					<li><button><img src="images/home/search.svg" alt=""></button></li>
 					<li><button><img src="images/home/pr-people-original.svg" alt=""></button></li>
 					<li>
-						<button aria-label="toggle menu">
+						<button alt="open menu">
 							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
 								<path d="M4 7.25h16v1.5H4zM4 11.25h16v1.5H4zM4 15.25h16v1.5H4z" />
 							</svg>
@@ -39,184 +71,448 @@
 			</li>
 		</ul>
 	</nav>
-	<section>
-		<img src="images/home/dehelewereld.jpg" alt="">
+	<main>
+		<section>
+			<img src="images/home/dehelewereld.jpg" alt="">
+			<div>
+				<h2>De hele wereld wil wat van je. Maar wat wil jij?</h2>
+				<p>Begin met een plan</p>
+				<button>Plan je gesprek</button>
+			</div>
+
+		</section>
+		<section>
+			<h2>Goedemiddag,</h2>
+			<p>waarmee kunnen we je vooruit helpen?</p>
+			<input type="search" placeholder=" Zoeken naar...">
+		</section>
+
+		<section>
+			<h2 class="visually-hidden">navi</h2>
+			<ul>
+				<li>
+					<a href="#">
+						<img src="images/home/pr-lock.svg" alt="">
+						Inloggen
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path fill="#00716B" fill-rule="evenodd"
+								d="m14.993 13.427-4.274 4.278a1.007 1.007 0 1 1-1.425-1.427L13.569 12 9.294 7.723a1.013 1.013 0 0 1 0-1.426 1.004 1.004 0 0 1 1.425 0l4.274 4.278.712.712a1.01 1.01 0 0 1 0 1.427z">
+							</path>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="#"><img src="images/home/pr-card.svg" alt="">Betalen
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path fill="#00716B" fill-rule="evenodd"
+								d="m14.993 13.427-4.274 4.278a1.007 1.007 0 1 1-1.425-1.427L13.569 12 9.294 7.723a1.013 1.013 0 0 1 0-1.426 1.004 1.004 0 0 1 1.425 0l4.274 4.278.712.712a1.01 1.01 0 0 1 0 1.427z">
+							</path>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="#"><img src="images/home/pr-umbrella.svg" alt="">Verzekeren
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path fill="#00716B" fill-rule="evenodd"
+								d="m14.993 13.427-4.274 4.278a1.007 1.007 0 1 1-1.425-1.427L13.569 12 9.294 7.723a1.013 1.013 0 0 1 0-1.426 1.004 1.004 0 0 1 1.425 0l4.274 4.278.712.712a1.01 1.01 0 0 1 0 1.427z">
+							</path>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="#"><img src="images/home/pr-house.svg" alt="">Hypotheken
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path fill="#00716B" fill-rule="evenodd"
+								d="m14.993 13.427-4.274 4.278a1.007 1.007 0 1 1-1.425-1.427L13.569 12 9.294 7.723a1.013 1.013 0 0 1 0-1.426 1.004 1.004 0 0 1 1.425 0l4.274 4.278.712.712a1.01 1.01 0 0 1 0 1.427z">
+							</path>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="#"><img src="images/home/pr-money.svg" alt="">Lenen
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path fill="#00716B" fill-rule="evenodd"
+								d="m14.993 13.427-4.274 4.278a1.007 1.007 0 1 1-1.425-1.427L13.569 12 9.294 7.723a1.013 1.013 0 0 1 0-1.426 1.004 1.004 0 0 1 1.425 0l4.274 4.278.712.712a1.01 1.01 0 0 1 0 1.427z">
+							</path>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="#"><img src="images/home/pr-invest-guided.svg" alt="">Beleggen
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path fill="#00716B" fill-rule="evenodd"
+								d="m14.993 13.427-4.274 4.278a1.007 1.007 0 1 1-1.425-1.427L13.569 12 9.294 7.723a1.013 1.013 0 0 1 0-1.426 1.004 1.004 0 0 1 1.425 0l4.274 4.278.712.712a1.01 1.01 0 0 1 0 1.427z">
+							</path>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="#"><img src="images/home/pr-saving.svg" alt="">Sparen
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path fill="#00716B" fill-rule="evenodd"
+								d="m14.993 13.427-4.274 4.278a1.007 1.007 0 1 1-1.425-1.427L13.569 12 9.294 7.723a1.013 1.013 0 0 1 0-1.426 1.004 1.004 0 0 1 1.425 0l4.274 4.278.712.712a1.01 1.01 0 0 1 0 1.427z">
+							</path>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="#"><img src="images/home/pr-pension.svg" alt="">Pensioen
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path fill="#00716B" fill-rule="evenodd"
+								d="m14.993 13.427-4.274 4.278a1.007 1.007 0 1 1-1.425-1.427L13.569 12 9.294 7.723a1.013 1.013 0 0 1 0-1.426 1.004 1.004 0 0 1 1.425 0l4.274 4.278.712.712a1.01 1.01 0 0 1 0 1.427z">
+							</path>
+						</svg>
+					</a>
+				</li>
+			</ul>
+		</section>
 		<div>
-			<h2>De hele wereld wil wat van je. Maar wat wil jij?</h2>
-			<p>Begin met een plan</p>
-			<button>Plan je gesprek</button>
+			<section>
+				<h2>Je situatie</h2>
+				<img src="images/home/pr-people-original.svg" alt="">
+				<ul>
+					<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<path fill="#00716B" fill-rule="evenodd"
+									d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+								</path>
+							</svg>Preferred banking</a></li>
+					<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<path fill="#00716B" fill-rule="evenodd"
+									d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+								</path>
+							</svg>Studenten</a></li>
+					<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<path fill="#00716B" fill-rule="evenodd"
+									d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+								</path>
+							</svg>Ouder en kind</a></li>
+					<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<path fill="#00716B" fill-rule="evenodd"
+									d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+								</path>
+							</svg>Senioren</a></li>
+					<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<path fill="#00716B" fill-rule="evenodd"
+									d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+								</path>
+							</svg>Overlijden melden</a></li>
+				</ul>
+			</section>
+			<section>
+				<h2>Direct regelen</h2>
+				<img src="images/home/pr-laptop-original.svg" alt="laptop">
+				<ul>
+					<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<path fill="#00716B" fill-rule="evenodd"
+									d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+								</path>
+							</svg>Lening inzien in Internet
+							Bankieren</a></li>
+					<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<path fill="#00716B" fill-rule="evenodd"
+									d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+								</path>
+							</svg>Betaalpas blokkeren</a>
+					</li>
+					<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<path fill="#00716B" fill-rule="evenodd"
+									d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+								</path>
+							</svg>Betaalpas vervangen</a>
+					</li>
+					<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<path fill="#00716B" fill-rule="evenodd"
+									d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+								</path>
+							</svg>Bankrekening openen</a>
+					</li>
+					<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<path fill="#00716B" fill-rule="evenodd"
+									d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+								</path>
+							</svg>Hulp bij geldzaken</a>
+					</li>
+				</ul>
+			</section>
+			<section>
+				<h2>Meest gezocht</h2>
+				<img src="images/home/pr-search-folder-original.svg" alt="zoeken">
+				<ul>
+					<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<path fill="#00716B" fill-rule="evenodd"
+									d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+								</path>
+							</svg>Hypotheek Berekenen</a>
+					</li>
+					<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<path fill="#00716B" fill-rule="evenodd"
+									d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+								</path>
+							</svg>Werkelijk rendement box
+							3</a></li>
+					<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<path fill="#00716B" fill-rule="evenodd"
+									d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+								</path>
+							</svg>Creditcard</a></li>
+					<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<path fill="#00716B" fill-rule="evenodd"
+									d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+								</path>
+							</svg>Daglimiet wijzigen</a></li>
+					<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<path fill="#00716B" fill-rule="evenodd"
+									d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+								</path>
+							</svg>E.dentifier</a></li>
+				</ul>
+			</section>
 		</div>
-	
-	</section>
-	<section>
-		<h2>Goedemiddag,</h2>
-		<p>waarmee kunnen we je vooruit helpen?</p>
-		<input type="search" value="Zoeken naar...">
-	</section>
-	<section>
-		<ul>
-			<li>
-				<a href="#"><img src="images/home/pr-lock.svg" alt="">Inloggen</a>
-			</li>
-			<li>
-				<a href="#"><img src="images/home/pr-card.svg" alt="">Betalen</a>
-			</li>
-			<li>
-				<a href="#"><img src="images/home/pr-umbrella.svg" alt="">Verzekeren</a>
-			</li>
-			<li>
-				<a href="#"><img src="images/home/pr-house.svg" alt="">Hypotheken</a>
-			</li>
-			<li>
-				<a href="#"><img src="images/home/pr-money.svg" alt="">Lenen</a>
-			</li>
-			<li>
-				<a href="#"><img src="images/home/pr-invest-guided.svg" alt="">Beleggen</a>
-			</li>
-			<li>
-				<a href="#"><img src="images/home/pr-saving.svg" alt="">Sparen</a>
-			</li>
-			<li>
-				<a href="#"><img src="images/home/pr-pension.svg" alt="">Pensioen</a>
-			</li>
-		</ul>
-	</section>
-	<section>
-		<article>
-			<h2>Je situatie</h2>
-			<img>
-			<ul>
-				<il><a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts">Preferred banking</a></il>
-				<il><a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts"></a>Studenten</il>
-				<il><a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts"></a>Ouder en kind</il>
-				<il><a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts"></a>Senioren</il>
-				<il><a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts"></a>Overlijden melden</il>
-			</ul>
-		</article>
-		<article>
-			<h2>Direct regelen</h2>
-			<img src="images/home/pr-laptop-original.svg" alt="laptop">
-			<ul>
-				<il><a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts">Lening inzien in Internet
-						Bankieren</a></il>
-				<il><a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts"></a>Betaalpas blokkeren
-				</il>
-				<il><a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts"></a>Betaalpas vervangen
-				</il>
-				<il><a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts"></a>
-					Bankrekening openen</il>
-				<il><a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts"></a>
-					Hulp bij geldzaken</il>
-			</ul>
-		</article>
-		<article>
-			<h2>Meest gezocht</h2>
-			<img src="images/home/pr-search-folder-original.svg" alt="zoeken">
-			<ul>
-				<il><a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts">Hypotheek Berekenen</a>
-				</il>
-				<il><a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts">Werkelijk rendement box
-						3</a></il>
-				<il><a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts">Creditcard</a></il>
-				<il><a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts">Daglimiet wijzigen</a></il>
-				<il><a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts">E.dentifier</a></il>
-			</ul>
-		</article>
-		<article>
-			<h2>Actueel: valse e-mails en sms’en</h2>
+		<section>
+			<article>
+				<h2>Phishing staat niet stil</h2>
+				<p>Bij phishing sturen oplichters je een bericht dat erg lijkt op een bericht van de bank, een
+					instelling of
+					bedrijf. Vroeger waren phishingberichten goed te herkennen. Ze stonden bijvoorbeeld vol spelfouten.
+					Tegenwoordig zijn valse berichten zo goed nagemaakt dat ze echt lijken. Weet jij hoe je phishing
+					herkent?
+				</p>
+				<button>Zo herken je phishing</button>
+			</article>
 			<img src="images/home/digitaal-en-veilig-bankieren-2-0968-landscape-3x2.jpg" alt="senior op de computer">
-			<p>Oplichters zijn nu actief via e-mail en sms. Ze doen alsof ze van ABN AMRO zijn en vragen om je gegevens
-				te controleren. Klik niet op de link in het bericht. Wij vragen nooit om via een link direct in te
-				loggen.</p>
-			<button>Lees meer over phishing</button>
-			<a>Leer fraude herkennen<img src="images/home/arrowright.svg" alt="pijl naar rechts"></a>
-		</article>
-	</section>
-	<section>
-		<h2>Ook interessant</h2>
-		<article>
-			<h3>Met de app bankier je veilig</h3>
-			<img src="images/home/230820-dc-kyc-interieurstyliste-shot-01-0556-2-landscape-16x.jpg"
-				alt="interieur stylist">
-			<p>Met de ABN AMRO app regel je veilig én eenvoudig je bankzaken. Ben je benieuwd hoe het zit met de
-				veiligheid? We geven je 4 redenen waarom je de app kunt vertrouwen.</p>
-			<button>Ontdek hoe het zit</button>
-			<a></a>
-		</article>
-		<article>
-			<h3>Geld lenen voor een auto?</h3>
-			<img src="images/home/lenen-generiek-1006-landscape-16x9.jpg" alt="mooie auto">
-			<p>Aantal kilometers? Check! Bandenspanning? Check! Geen roestplekken? Check! Je zoekt een auto met zorg.
-				Kies ook je financiering met zorg. Lees meer over onze autofinanciering en bereken alvast hoeveel je
-				kunt lenen. Check!</p>
-			<button>Bekijk onze autofinanciering</button>
-			<a href="#">Bereken hoeveel je kunt lenen <img src="images/home/arrowright.svg"></a>
-		</article>
-		<article>
-			<h3>Voorkom stress en paniek op vakantie</h3>
-			<img src="images/home/muiderberg-campagne-051-landscape-16x9.jpg" alt="twee mensen ligge in gras">
-			<p>Doorloop verschillende scenario's en ontdek of jij een optimist, improvisator of échte regelaar bent. En
-				je ontvangt een handige checklist. Zo ga je goed voorbereid op reis!</p>
-			<button>Doe de vakantiequiz</button>
-		</article>
-	</section>
+
+		</section>
+		<section>
+			<h2>Ook interessant</h2>
+			<ul>
+				<li>
+					<article>
+						<h3>Met de app bankier je veilig</h3>
+						<img src="images/home/230820-dc-kyc-interieurstyliste-shot-01-0556-2-landscape-16x.jpg"
+							alt="interieur stylist">
+						<p>Met de ABN AMRO app regel je veilig én eenvoudig je bankzaken. Ben je benieuwd hoe het zit
+							met de
+							veiligheid? We geven je 4 redenen waarom je de app kunt vertrouwen.</p>
+						<button>Ontdek hoe het zit</button>
+						<a></a>
+					</article>
+				</li>
+				<li>
+					<article>
+						<h3>Geld lenen voor een auto?</h3>
+						<img src="images/home/lenen-generiek-1006-landscape-16x9.jpg" alt="mooie auto">
+						<p>Aantal kilometers? Check! Bandenspanning? Check! Geen roestplekken? Check! Je zoekt een auto
+							met zorg.
+							Kies ook je financiering met zorg. Lees meer over onze autofinanciering en bereken alvast
+							hoeveel je
+							kunt lenen. Check!</p>
+						<button>Bekijk onze autofinanciering</button>
+						<!-- <a href="#">Bereken hoeveel je kunt lenen <img src="images/home/arrowright.svg"></a> -->
+					</article>
+				</li>
+				<li>
+					<article>
+						<h3>Voorkom stress en paniek op vakantie</h3>
+						<img src="images/home/muiderberg-campagne-051-landscape-16x9.jpg"
+							alt="twee mensen liggen in gras">
+						<p>Doorloop verschillende scenario's en ontdek of jij een optimist, improvisator of échte
+							regelaar bent. En
+							je ontvangt een handige checklist. Zo ga je goed voorbereid op reis!</p>
+						<button>Doe de vakantiequiz</button>
+					</article>
+				</li>
+			</ul>
+		</section>
 
 
 
-	<script defer src="scripts/script.js"></script>
+		<script defer src="scripts/script.js"></script>
+	</main>
 	<footer>
 		<section>
-			<article>
-				<h2>Service e contact</h2>
-				<a href="#">Betaalpas kwijt of gestolen<img src="images/home/arrowright.svg" alt="pijl naar rechts"></a>
-				<a href="#">Daglimiet wijzigen<img src="images/home/arrowright.svg" alt="pijl naar rechts"></a>
-				<a href="#">Adres wijzigen<img src="images/home/arrowright.svg" alt="pijl naar rechts"></a>
-				<a href="#">Je gegevens controleren<img src="images/home/arrowright.svg" alt="pijl naar rechts"></a>
-				<a href="#">Toegankelijkheid: bankieren<img src="images/home/arrowright.svg" alt="pijl naar rechts"></a>
-			</article>
-			<article>
-				<h2>Hulp nodig?</h2>
-				<p>Bekijk op de pagina Service & Contact hoe we je vooruit kunnen helpen.</p>
-				<a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts"></a>
-			</article>
+			<h2>Service en contact</h2>
+			<ul>
+				<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path fill="#00716B" fill-rule="evenodd"
+								d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+							</path>
+						</svg>Betaalpas kwijt of gestolen</a></li>
+				<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path fill="#00716B" fill-rule="evenodd"
+								d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+							</path>
+						</svg>Daglimiet wijzigen</a></li>
+				<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path fill="#00716B" fill-rule="evenodd"
+								d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+							</path>
+						</svg>Adres wijzigen</a></li>
+				<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path fill="#00716B" fill-rule="evenodd"
+								d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+							</path>
+						</svg>Je gegevens controleren</a>
+				</li>
+				<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path fill="#00716B" fill-rule="evenodd"
+								d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+							</path>
+						</svg>Toegankelijkheid: bankieren</a></li>
+			</ul>
 		</section>
 		<section>
-			<article>
-				<h2></h2>
-				<a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts">Betalen & Creditcards</a>
-				<a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts">Hypotheken</a>
-				<a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts">Geld lenen</a>
-				<a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts">Beleggen</a>
-				<a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts">Sparen</a>
-				<a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts">Verzekeringen</a>
-				<a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts">Pensioen</a>
-			</article>
-			<article>
-				<h2></h2>
-				<a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts">Ouders & kinderen</a>
-				<a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts">Wonen</a>
-				<a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts">Studeren</a>
-				<a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts">Preferred banking</a>
-				<a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts">Senioren</a>
-				<a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts">Ondernemers</a>
-			</article>
-			<article>
-				<h2></h2>
-				<a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts">Internet Bankieren</a>
-				<a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts">ABN AMRO app</a>
-				<a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts">Tikkie</a>
-				<a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts">Apple Pay</a>
-				<a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts">Google Pay</a>
-				<a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts">Veilig bankieren</a>
-			</article>
-			<article>
-				<h2></h2>
-				<a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts">Hypotheek berekenen</a>
-				<a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts">E.dentifier</a>
-				<a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts">Jaaroverzicht</a>
-				<a href="#"><img src="images/home/arrowright.svg" alt="pijl naar rechts">Rood staan</a>
-			</article>
+			<h2>Hulp nodig?</h2>
+			<p>Bekijk op de pagina Service & Contact hoe we je vooruit kunnen helpen.</p>
+			<a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+					<path fill="#00716B" fill-rule="evenodd"
+						d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+					</path>
+				</svg>Naar service en contact</a>
 		</section>
+<div>
+		<section>
+			<h2>Producten</h2>
+			<ul>
+				<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path fill="#00716B" fill-rule="evenodd"
+								d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+							</path>
+						</svg>Betalen & Creditcards</a>
+				</li>
+				<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path fill="#00716B" fill-rule="evenodd"
+								d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+							</path>
+						</svg>Hypotheken</a></li>
+				<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path fill="#00716B" fill-rule="evenodd"
+								d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+							</path>
+						</svg>Geld lenen</a></li>
+				<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path fill="#00716B" fill-rule="evenodd"
+								d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+							</path>
+						</svg>Beleggen</a></li>
+				<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path fill="#00716B" fill-rule="evenodd"
+								d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+							</path>
+						</svg>Sparen</a></li>
+				<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path fill="#00716B" fill-rule="evenodd"
+								d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+							</path>
+						</svg>Verzekeringen</a></li>
+				<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path fill="#00716B" fill-rule="evenodd"
+								d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+							</path>
+						</svg>Pensioen</a></li>
+			</ul>
+		</section>
+		<section>
+			<h2>Je situatie</h2>
+			<ul>
+				<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path fill="#00716B" fill-rule="evenodd"
+								d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+							</path>
+						</svg>Ouders & kinderen</a></li>
+				<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path fill="#00716B" fill-rule="evenodd"
+								d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+							</path>
+						</svg>Wonen</a></li>
+				<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path fill="#00716B" fill-rule="evenodd"
+								d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+							</path>
+						</svg>Studeren</a></li>
+				<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path fill="#00716B" fill-rule="evenodd"
+								d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+							</path>
+						</svg>Preferred banking</a></li>
+				<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path fill="#00716B" fill-rule="evenodd"
+								d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+							</path>
+						</svg>Senioren</a></li>
+				<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path fill="#00716B" fill-rule="evenodd"
+								d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+							</path>
+						</svg>Ondernemers</a></li>
+			</ul>
+		</section>
+		
+			<section>
+				<h2>Digitale diensten</h2>
+				<ul>
+					<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<path fill="#00716B" fill-rule="evenodd"
+									d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+								</path>
+							</svg>Internet Bankieren</a>
+					</li>
+					<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<path fill="#00716B" fill-rule="evenodd"
+									d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+								</path>
+							</svg>ABN AMRO app</a></li>
+					<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<path fill="#00716B" fill-rule="evenodd"
+									d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+								</path>
+							</svg>Tikkie</a></li>
+					<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<path fill="#00716B" fill-rule="evenodd"
+									d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+								</path>
+							</svg>Apple Pay</a></li>
+					<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<path fill="#00716B" fill-rule="evenodd"
+									d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+								</path>
+							</svg>Google Pay</a></li>
+					<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<path fill="#00716B" fill-rule="evenodd"
+									d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+								</path>
+							</svg>Veilig bankieren</a>
+					</li>
+				</ul>
+			</section>
+			<section>
+				<h2>Vaak gezocht</h2>
+				<ul>
+					<li>
+
+					<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<path fill="#00716B" fill-rule="evenodd"
+									d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+								</path>
+							</svg>Hypotheek berekenen</a>
+					</li>
+					<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<path fill="#00716B" fill-rule="evenodd"
+									d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+								</path>
+							</svg>E.dentifier</a></li>
+					<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<path fill="#00716B" fill-rule="evenodd"
+									d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+								</path>
+							</svg>Jaaroverzicht</a></li>
+					<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<path fill="#00716B" fill-rule="evenodd"
+									d="M18.707 11.304 14.414 7.01A1 1 0 0 0 13 8.425l2.586 2.586H6a1 1 0 1 0 0 2h9.586L13 15.597a1 1 0 0 0 1.414 1.414l4.293-4.293a1 1 0 0 0 0-1.414">
+								</path>
+							</svg>Rood staan</a></li>
+				</ul>
+			</section>
+		</div>
 	</footer>
 </body>
 

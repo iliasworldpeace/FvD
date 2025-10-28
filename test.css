@@ -1,0 +1,32 @@
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns total */
+  grid-template-rows: repeat(2, 1fr);    /* 2 rows: top + bottom */
+  gap: 10px;
+  height: 300px; /* for demo */
+}
+
+/* top row (2×1) */
+.item.a {
+  grid-column: 1 / span 2; /* left half */
+  grid-row: 1;
+}
+
+.item.b {
+  grid-column: 3 / span 2; /* right half */
+  grid-row: 1;
+}
+
+/* bottom row (4×1) */
+.item.c { grid-column: 1; grid-row: 2; }
+.item.d { grid-column: 2; grid-row: 2; }
+.item.e { grid-column: 3; grid-row: 2; }
+.item.f { grid-column: 4; grid-row: 2; }
+
+.item {
+  background: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}

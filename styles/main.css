@@ -15,12 +15,13 @@ algemene css
 
 :root {
 	/* startje */
+
 	--color-text: #222222;
 	--color-background: #eee;
 	--abn-darkgreen: #004C4C;
 	--altbutton-color: #FFD200;
-    font-family: abnamrosans;
-    background-color: #f3f3f3;
+	font-family: abnamrosans;
+	background-color: #eee;
 }
 
 .visually-hidden {
@@ -35,9 +36,34 @@ algemene css
 
 
 
+body {
+	scroll-behavior: smooth;
+}
+
+h2 {
+	padding: 0;
+	margin: 0;
+	font-weight: 500;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
 
 img {
 	max-width: 100%;
+}
+
+ul {
+	list-style: none;
+}
+
+@media(min-width:768px) {
+	p {
+		font-size: 18px;
+		font-weight: 200;
+	}
 }
 
 /********************************************
@@ -75,9 +101,7 @@ nav:nth-of-type(1) ul {
 nav ul li:nth-of-type(3) {
 	grid-area: f;
 	justify-self: end;
-	/* aligns the buttons container to the right of the cell */
 	align-self: start;
-	/* optional vertical alignment */
 }
 
 nav ul li:nth-of-type(2) {
@@ -119,7 +143,7 @@ nav ul li ul li button>svg:first-of-type {
 	justify-self: center;
 }
 
-nav:nth-of-type(1) ul li ul>li:nth-of-type(3) button{
+nav:nth-of-type(1) ul li ul>li:nth-of-type(3) button {
 	/* background-color: #004C4C; */
 	display: flex;
 	align-items: center;
@@ -141,3 +165,89 @@ nav:nth-of-type(1) ul a {
 nav:nth-of-type(1) ul a:hover {
 	color: var(--abn-darkgreen);
 }
+
+body>nav>ul>li:nth-of-type(1) {
+	position: relative;
+
+}
+
+body>nav>ul>li:nth-of-type(1)>ul {
+	display: none;
+	position: absolute;
+	width: 1rem;
+	top: 120%;
+	left: 0;
+	background-color: rgb(0, 0, 0);
+	z-index: 9999;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	box-shadow: 10px black;
+	overflow: hidden;
+}
+
+body>nav>ul>li:nth-of-type(1)>ul li {
+	background-color: rgb(255, 255, 255);
+	color: var(--abn-darkgreen);
+	width: 100%;
+	padding: .75rem;
+	padding-inline-start: 1rem;
+	box-shadow: 7px 2px 5px 0px rgba(0, 0, 0, 0.32);
+}
+
+body>nav>ul>li:nth-of-type(1)>ul li:nth-of-type(1) {
+	border-radius: 10px 10px 0 0;
+}
+
+body>nav>ul>li:nth-of-type(1)>ul li:nth-of-type(2) {
+	border-radius: 0 0 10px 10px;
+
+}
+
+nav:nth-of-type(1) {
+	padding-top: 1em;
+}
+
+body>nav>ul>li:nth-of-type(2) {
+	position: relative;
+
+}
+
+body>nav>ul>li:nth-of-type(2)>ul {
+	display: none;
+	position: absolute;
+	width: 1rem;
+	top: 120%;
+	left: 0;
+	background-color: rgb(0, 0, 0);
+	z-index: 9999;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	box-shadow: 10px black;
+	overflow: hidden;
+}
+
+body>nav>ul>li:nth-of-type(2)>ul li {
+	background-color: rgb(255, 255, 255);
+	color: var(--abn-darkgreen);
+	width: 100%;
+	padding: .75rem;
+	padding-inline-start: 1rem;
+	box-shadow: 7px 2px 5px 0px rgba(0, 0, 0, 0.32);
+}
+
+body>nav>ul>li:nth-of-type(2)>ul li:nth-of-type(1) {
+	border-radius: 10px 10px 0 0;
+}
+
+body>nav>ul>li:nth-of-type(2)>ul li:nth-of-type(2) {
+	border-radius: 0 0 10px 10px;
+
+}
+
+nav:nth-of-type(1) {
+	padding-top: 1em;
+}
+
+@media (min-width:1024px) {}
