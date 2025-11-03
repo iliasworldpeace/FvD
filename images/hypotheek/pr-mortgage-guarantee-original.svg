@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 72 72">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: .08;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+        fill-rule: evenodd;
+      }
+
+      .cls-4 {
+        fill: #ffd100;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="55.548" y1="26.654" x2="27.213" y2="54.989" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00c4bb"/>
+      <stop offset="1" stop-color="#009185"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="206.399" y1="-135.124" x2="3.414" y2="67.861" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#009695"/>
+      <stop offset="1" stop-color="#005e5d"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_6" data-name="Layer 6"/>
+  <g id="Layer_5" data-name="Layer 5">
+    <g class="cls-1">
+      <path d="M52.413,35.886L31.621,17.272l-.707-.633c-.84-.752-2.136-.661-2.863,.201l-.715,.848L9.57,38.764c-.585,.674-.574,1.66,.027,2.248,.653,.639,1.739,.557,2.371-.179l.103-.124,1.579,22.567,38.014-2.658-1.593-22.788,.376,.334c.678,.583,1.664,.549,2.207-.075s.438-1.614-.241-2.203Z"/>
+      <path d="M52.413,35.886L31.621,17.272l-.707-.633c-.84-.752-2.136-.661-2.863,.201l-.715,.848L9.57,38.764c-.585,.674-.574,1.66,.027,2.248,.653,.639,1.739,.557,2.371-.179l.103-.124,1.579,22.567,38.014-2.658-1.593-22.788,.376,.334c.678,.583,1.664,.549,2.207-.075s.438-1.614-.241-2.203Z"/>
+    </g>
+    <g>
+      <polygon class="cls-3" points="55.108 59 17.001 59 17 34.02 36.072 14.223 55.108 34.02 55.108 59"/>
+      <path class="cls-2" d="M57.67,36.59c-.59,.59-1.57,.55-2.21-.07l-11.46-11.68-2-2.04-6.05-6.16-19.06,19.85c-.68,.69-1.77,.7-2.38,.02-.56-.63-.5-1.62,.13-2.25L33.83,14.48l.78-.8c.78-.81,2.08-.81,2.87,0l.66,.68,3.86,3.98,2,2.05,13.58,13.99c.64,.64,.68,1.63,.09,2.21Z"/>
+    </g>
+    <rect class="cls-4" x="31.14" y="42.065" width="17.75" height="3" rx="1.5" ry="1.5" transform="translate(-19.085 41.054) rotate(-45)"/>
+    <rect class="cls-4" x="30.185" y="39.761" width="3" height="11.809" rx="1.5" ry="1.5" transform="translate(-23.01 35.78) rotate(-45)"/>
+  </g>
+  <g id="Layer_9" data-name="Layer 9"/>
+  <g id="Layer_3" data-name="Layer 3"/>
+  <g id="Layer_4" data-name="Layer 4"/>
+  <g id="Layer_7" data-name="Layer 7"/>
+</svg>

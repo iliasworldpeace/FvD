@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="PRODUCT_ICONS" data-name="PRODUCT ICONS" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #004c4c;
+      }
+
+      .cls-2 {
+        fill: #66c7c0;
+      }
+
+      .cls-3 {
+        fill: #33b5ab;
+      }
+
+      .cls-4 {
+        fill: #00716b;
+      }
+
+      .cls-5 {
+        fill: #f3c000;
+      }
+    </style>
+  </defs>
+  <path class="cls-2" d="M21.05,9h29.89c2.24,0,4.05,1.82,4.05,4.05v45.95c0,2.21-1.79,4-4,4h-30c-2.21,0-4-1.79-4-4V13.05c0-2.24,1.82-4.05,4.05-4.05Z"/>
+  <path class="cls-4" d="M21,9h30c2.21,0,4,1.79,4,4v16H17V13c0-2.21,1.79-4,4-4Z"/>
+  <rect class="cls-1" x="22.5" y="14" width="27" height="10" rx="2" ry="2"/>
+  <g>
+    <rect class="cls-3" x="23" y="32" width="8" height="8" rx="2" ry="2"/>
+    <rect class="cls-3" x="41" y="32" width="8" height="8" rx="2" ry="2"/>
+    <rect class="cls-3" x="32" y="32" width="8" height="8" rx="2" ry="2"/>
+    <rect class="cls-3" x="23" y="41" width="8" height="8" rx="2" ry="2"/>
+    <rect class="cls-3" x="41" y="41" width="8" height="8" rx="2" ry="2"/>
+    <rect class="cls-3" x="32" y="41" width="8" height="8" rx="2" ry="2"/>
+    <rect class="cls-3" x="23" y="50" width="8" height="8" rx="2" ry="2"/>
+    <rect class="cls-5" x="41" y="50" width="8" height="8" rx="2" ry="2"/>
+    <rect class="cls-3" x="32" y="50" width="8" height="8" rx="2" ry="2"/>
+  </g>
+</svg>

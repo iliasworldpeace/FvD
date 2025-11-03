@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 72 72">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: .08;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-7);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-6);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-8);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-8 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-9 {
+        fill: #00716b;
+      }
+
+      .cls-10 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="32.059" y1="41.584" x2="-5.777" y2="91.984" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00c5bc"/>
+      <stop offset="1" stop-color="#009286"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="52.915" y1="2.908" x2="-2.049" y2="99.568" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse">
+      <stop offset=".36" stop-color="#009695"/>
+      <stop offset="1" stop-color="#005e5d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="70.295" y1="12.791" x2="15.332" y2="109.451" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-4" x1="40.863" y1="-3.945" x2="-14.1" y2="92.715" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-5" x1="54.782" y1="3.97" x2="-.182" y2="100.63" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-6" x1="68.323" y1="11.67" x2="13.359" y2="108.33" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-7" x1="40.024" y1="-4.422" x2="-14.939" y2="92.238" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-8" x1="58.82" y1="6.266" x2="3.857" y2="102.926" gradientTransform="translate(-1.737 31.225) rotate(-33)" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <g id="Layer_6" data-name="Layer 6"/>
+  <g id="Layer_5" data-name="Layer 5">
+    <g class="cls-1">
+      <path d="M50.6,28.823l-17.956,1.256-.698-9.976c-.077-1.102-1.033-1.933-2.135-1.856l-2.993,.209-13.966,.977-.998,.07-.998,.07c-1.102,.077-1.933,1.033-1.856,2.135l.558,7.981,.349,4.988,.837,11.971,.349,4.988,.558,7.981c.077,1.102,1.033,1.933,2.135,1.856l.998-.07,.998-.07,13.966-.977,6.983-.488,.998-.07,.998-.07,13.966-.977c1.102-.077,1.933-1.033,1.856-2.135l-.558-7.981-.349-4.988-.837-11.971-.07-.998c-.077-1.102-1.033-1.933-2.135-1.856Z"/>
+      <path d="M55.818,17.757l-12.245-6.787c-.152-.084-.311-.139-.472-.181-.12-.114-.251-.22-.403-.304l-.875-.485c-.966-.535-2.183-.187-2.719,.78l-3.878,6.997c-.535,.966-.186,2.183,.78,2.719l.875,.485c.152,.084,.311,.139,.472,.181,.12,.114,.251,.22,.403,.304l12.245,6.787c.966,.535,2.183,.187,2.719-.78l3.878-6.997c.536-.966,.186-2.183-.78-2.719Z"/>
+    </g>
+    <path class="cls-10" d="M37,28v-10c0-1.105-.895-2-2-2H16c-1.1,0-2,.9-2,2V56c0,1.1,.9,2,2,2H55c1.1,0,2-.9,2-2V30c0-1.105-.895-2-2-2h-18Z"/>
+    <rect class="cls-9" x="14" y="46" width="5" height="12" rx="2" ry="2"/>
+    <rect class="cls-6" x="16" y="46" width="18" height="12" rx="2" ry="2"/>
+    <rect class="cls-9" x="37" y="46" width="5" height="12" rx="2" ry="2"/>
+    <rect class="cls-5" x="39" y="46" width="18" height="12" rx="2" ry="2"/>
+    <path class="cls-7" d="M22,33v8c0,1.1-.9,2-2,2h-6v-12h6c1.1,0,2,.9,2,2Z"/>
+    <rect class="cls-9" x="25" y="31" width="5" height="12" rx="2" ry="2"/>
+    <rect class="cls-8" x="27" y="31" width="18" height="12" rx="2" ry="2"/>
+    <rect class="cls-9" x="48" y="31" width="5" height="12" rx="2" ry="2"/>
+    <path class="cls-3" d="M57,31v12h-5c-1.1,0-2-.9-2-2v-8c0-1.1,.9-2,2-2h5Z"/>
+    <rect class="cls-9" x="14" y="16" width="5" height="12" rx="2" ry="2"/>
+    <rect class="cls-2" x="16" y="16" width="18" height="12" rx="2" ry="2"/>
+    <rect class="cls-9" x="38.71" y="11.415" width="12" height="5" rx="2" ry="2" transform="translate(8.689 43.833) rotate(-57)"/>
+    <rect class="cls-4" x="42.839" y="12.545" width="18" height="12" rx="2" ry="2" transform="translate(18.463 -25.242) rotate(33)"/>
+  </g>
+  <g id="Layer_9" data-name="Layer 9"/>
+  <g id="Layer_3" data-name="Layer 3"/>
+  <g id="Layer_4" data-name="Layer 4"/>
+  <g id="Layer_7" data-name="Layer 7"/>
+</svg>

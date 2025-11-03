@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="PRODUCT_ICONS" data-name="PRODUCT ICONS" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #004c4c;
+      }
+
+      .cls-2 {
+        fill: #66c7c0;
+      }
+
+      .cls-3 {
+        fill: #00716b;
+      }
+
+      .cls-4 {
+        fill: #39b7ae;
+      }
+
+      .cls-5 {
+        fill: #f3c000;
+      }
+    </style>
+  </defs>
+  <path class="cls-2" d="M45,51.49v7.81c0,2.05-4.03,3.69-9,3.69s-9-1.65-9-3.69v-7.81h18Z"/>
+  <path class="cls-4" d="M45,53.61s-3,4.39-18,4.39v-6.75h18v2.36Z"/>
+  <circle class="cls-3" cx="36" cy="30" r="18"/>
+  <path class="cls-2" d="M50,35.34v6.36c0,7.89-6.27,14.3-14,14.3s-14-6.4-14-14.3v-5.16c.49.03,1,.05,1.5.05,6.69,0,12.73-2.86,17-7.43,2.59,2.79,5.84,4.93,9.5,6.18Z"/>
+  <path class="cls-1" d="M39.09,51h-3.09v-2h3.09c4.91,0,8.91-4,8.91-8.91v-3.09h2v3.09c0,6.01-4.89,10.91-10.91,10.91Z"/>
+  <rect class="cls-5" x="34" y="47" width="9" height="5" rx="2.47" ry="2.47"/>
+  <path class="cls-1" d="M49.14,45.59h0c-.63,0-1.14-.73-1.14-1.63v-7.74c0-.9.51-1.63,1.14-1.63h0c2.13,0,3.86,2.46,3.86,5.5h0c0,3.04-1.73,5.5-3.86,5.5Z"/>
+</svg>
