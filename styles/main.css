@@ -40,6 +40,10 @@ body {
 	scroll-behavior: smooth;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 h2 {
 	padding: 0;
 	margin: 0;

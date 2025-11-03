@@ -1,12 +1,11 @@
 @font-face {
 	font-family: "Abnamrosans";
-	src: url(../fonts/abnamrosans-regular.woff2);
+	src: url(fonts/abnamrosans-regular.woff2);
 	font-weight:500;
 }
 
 @font-face {
 	font-family: "Abnamrosans";
-	src: url(../fonts/abnamrosans-semibold.woff2);
+	src: url(fonts/abnamrosans-semibold.woff2);
 	font-weight:700;
-
 }

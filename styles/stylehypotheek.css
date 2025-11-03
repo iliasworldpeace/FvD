@@ -761,7 +761,8 @@ main>section:nth-of-type(8) ul li a {
 }
 
 main>section:nth-of-type(8) ul li:nth-of-type(2) a {
-	transform: translateX(9999px);
+	background-color: transparent;
+	color: transparent;
 }
 
 @media (min-width: 768px) {
@@ -771,11 +772,13 @@ main>section:nth-of-type(8) ul li:nth-of-type(2) a {
 	}
 
 	main>section:nth-of-type(8) ul li:nth-of-type(2) a {
-		transform: translateX(0px);
+		background-color: #004C4C;
+		color:white;
 	}
 
 	main>section:nth-of-type(8) ul li:nth-of-type(3) a {
-		transform: translateX(9999px);
+		background-color: transparent;
+	color: transparent;
 	}
 }
 
@@ -788,10 +791,4 @@ svg {
 	display: block;
 }
 
-/*chatgpt*/
-
-
-main>section:nth-of-type(4) ul li a {
-	overflow: hidden;
-	word-wrap: break-word;
-}
+/* laten genereren door chatgpt vanwege problemen met viewport*/
