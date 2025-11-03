@@ -24,6 +24,17 @@ algemene css
 	background-color: #eee;
 }
 
+p::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+a::selection,
+li::selection,
+button::selection {
+	background-color: red;
+	color: white;
+}
+
 .visually-hidden {
 	clip: rect(0 0 0 0);
 	clip-path: inset(50%);
@@ -40,8 +51,9 @@ body {
 	scroll-behavior: smooth;
 }
 
-html, body {
-    overflow-x: hidden;
+html,
+body {
+	overflow-x: hidden;
 }
 
 h2 {
@@ -56,9 +68,9 @@ a {
 }
 
 a:focus,
-button:focus{
+button:focus {
 	outline-color: red;
-	outline-style:groove;
+	outline-style: groove;
 	outline-width: .2em;
 }
 
@@ -182,8 +194,8 @@ body>nav>ul>li:nth-of-type(1) {
 
 }
 
-body>nav>ul>li:nth-of-type(1)>ul.langOpen li{
-		transform: translateX(0px);
+body>nav>ul>li:nth-of-type(1)>ul.langOpen li {
+	transform: translateX(0px);
 }
 
 body>nav>ul>li:nth-of-type(1)>ul li {
@@ -197,7 +209,7 @@ body>nav>ul>li:nth-of-type(1)>ul li {
 	transform: translateX(9999px);
 }
 
-.menuOpen{
+.menuOpen {
 	transform: translateX(0px);
 }
 
@@ -216,8 +228,8 @@ nav:nth-of-type(1) {
 
 body>nav>ul>li:nth-of-type(2) {
 	position: relative;
-	margin-left:3em;
-z-index: 9999;
+	margin-left: 3em;
+	z-index: 9999;
 }
 
 body>nav>ul>li:nth-of-type(2)>ul {
@@ -233,11 +245,11 @@ body>nav>ul>li:nth-of-type(2)>ul {
 	margin: 0;
 	box-shadow: 10px black;
 	overflow: hidden;
-	
+
 }
 
-body>nav>ul>li:nth-of-type(2)>ul.priveOpen li{
-	transform:translateX(0px);
+body>nav>ul>li:nth-of-type(2)>ul.priveOpen li {
+	transform: translateX(0px);
 }
 
 body>nav>ul>li:nth-of-type(2)>ul li {
@@ -261,13 +273,13 @@ body>nav>ul>li:nth-of-type(2)>ul li:nth-of-type(2) {
 
 }
 
-body>nav>ul>li:nth-of-type(2)>ul li:nth-of-type(3){
+body>nav>ul>li:nth-of-type(2)>ul li:nth-of-type(3) {
 	border-radius: 0 0 10px 10px;
 }
 
-body>nav>ul>li:nth-of-type(2) button{
+body>nav>ul>li:nth-of-type(2) button {
 	position: relative;
-	margin-left:3em;
+	margin-left: 3em;
 }
 
 nav:nth-of-type(1) {
@@ -287,7 +299,7 @@ nav:nth-of-type(1) {
 		margin-inline: auto;
 	}
 
-	footer div{
+	footer div {
 		background-color: #003737;
 	}
 
@@ -466,5 +478,13 @@ nav:nth-of-type(1) {
 
 	footer img {
 		width: 1rem;
+	}
+}
+
+@media (prefers-reduced-motion) {
+
+	svg,
+	img {
+		transition: 4s ease-in-out;
 	}
 }

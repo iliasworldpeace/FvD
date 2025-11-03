@@ -47,7 +47,7 @@ padding:1%;
 /****************/
 /* titel banner met grote foto*/
 /****************/
-@media (min-width: 430px) {
+@media (min-width: 270px) {
 	main>section:first-of-type {
 		margin-inline: 0;
 	}
@@ -174,7 +174,7 @@ main>section:nth-of-type(2) input {
 /****************/
 
 
-@media (min-width: 430px) {
+@media (min-width: 270px) {
 
 	/*mobile*/
 	main>section:nth-of-type(3) svg {
@@ -299,7 +299,7 @@ main>section:nth-of-type(2) input {
 /* lijst met links */
 /****************/
 
-@media (min-width:430px) {
+@media (min-width:270px) {
 
 	/*phone*/
 	main>div:nth-of-type(1) {
@@ -438,7 +438,7 @@ main>section:nth-of-type(2) input {
 /**************************************/
 /* @media(min-width:768)
 @media(min-width:1024) */
-@media(min-width:430px) {
+@media(min-width:270px) {
 
 	main>section:nth-last-of-type(2) {
 		max-width: 90%;
