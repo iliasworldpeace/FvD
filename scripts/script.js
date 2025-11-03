@@ -1,41 +1,13 @@
-// JavaScript Document
-console.log("hi");
+const lang = document.querySelector("nav>li:nth-of-type(1)>ul>li");
+const button = document.querySelector("nav>li:nth-of-type(1)");
 
-// Dropdowns in nav
-var language = document.querySelector("nav ul:nth-of-type(1) li:nth-of-type(1)");
-var langdrop = document.querySelector("nav ul:nth-of-type(1) li:nth-of-type(1) ul");
-
-language.onclick = toggleLanguage;
-
-function toggleLanguage(){
-    const expanded = language.getAttribute("aria-expanded") === "true";
-
-  if (expanded) {
-    language.setAttribute("aria-expanded", "false");
-    langdrop.style.display = "none";
-  } else {
-    language.setAttribute("aria-expanded", "true");
-    langdrop.style.display = "contents"; // or "absolute" positioning if needed via CSS
-  }
+// stap 2: laat de menu-button luisteren naar kliks en voer dan een functie uit
+ 
+button.addEventListener("click", openMenu);
+ 
+// stap 3: voeg in de functie een class toe aan de nav
+function openMenu() {
+    lang.classList.toggle("menuOpen");
+    console.log("hoi")
 }
-
-    //dropdowns prive
-    var prive = document.querySelector("nav ul:nth-of-type(1) li:nth-of-type(2)");
-var privedrop = document.querySelector("nav ul:nth-of-type(1) li:nth-of-type(2) ul");
-
-language.onclick = toggleLanguage;
-
-function toggleLanguage(){
-    const expanded = prive.getAttribute("aria-expanded") === "true";
-
-  if (expanded) {
-    prive.setAttribute("aria-expanded", "false");
-    privedrop.style.display = "none";
-  } else {
-    prive.setAttribute("aria-expanded", "true");
-    privedrop.style.display = "contents"; // or "absolute" positioning if needed via CSS
-  }
-}
-
-console.log(language.querySelector("ul"));
-
+ 

@@ -51,6 +51,13 @@ a {
 	text-decoration: none;
 }
 
+a:focus,
+button:focus{
+	outline-color: red;
+	outline-style:groove;
+	outline-width: .2em;
+}
+
 img {
 	max-width: 100%;
 }
@@ -172,7 +179,7 @@ body>nav>ul>li:nth-of-type(1) {
 }
 
 body>nav>ul>li:nth-of-type(1)>ul {
-	display: none;
+	/* transform: translate(9999px);
 	position: absolute;
 	width: 1rem;
 	top: 120%;
@@ -183,16 +190,21 @@ body>nav>ul>li:nth-of-type(1)>ul {
 	padding: 0;
 	margin: 0;
 	box-shadow: 10px black;
-	overflow: hidden;
+	overflow: hidden; */
 }
 
 body>nav>ul>li:nth-of-type(1)>ul li {
+	transform: translateX(9999px);
 	background-color: rgb(255, 255, 255);
 	color: var(--abn-darkgreen);
 	width: 100%;
 	padding: .75rem;
 	padding-inline-start: 1rem;
 	box-shadow: 7px 2px 5px 0px rgba(0, 0, 0, 0.32);
+}
+
+li.menuOpen{
+	transform: translateX(0px);
 }
 
 body>nav>ul>li:nth-of-type(1)>ul li:nth-of-type(1) {
@@ -251,3 +263,196 @@ nav:nth-of-type(1) {
 }
 
 @media (min-width:1024px) {}
+
+/********* FOOTER *********/
+
+@media(max-width:768px) {
+
+	footer {
+		background-color: #004C4C;
+		color: white;
+		padding-top: 2rem;
+		margin-inline: auto;
+	}
+
+	footer div{
+		background-color: #003737;
+	}
+
+	footer section {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 90%;
+		border-radius: .5em;
+		margin-bottom: 4rem;
+	}
+
+	footer section svg {
+		max-width: 1.5em;
+		stroke: none;
+		fill: #ffffff;
+		margin-left: auto;
+		transition: all 0.15s ease-in-out;
+	}
+
+	footer section svg path {
+		fill: white;
+	}
+
+	footer section ul {
+		font-size: small;
+		list-style-type: none;
+		display: flex;
+		flex-direction: column;
+		gap: 1.1em;
+		align-items: start;
+		max-width: 100%;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	footer section ul li {
+		width: 100%;
+		list-style: none;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		line-height: 1.5rem;
+	}
+
+	footer section a:hover svg {
+		translate: .25em 0;
+	}
+
+	footer section a {
+		display: grid;
+		grid-template-columns: 2em auto;
+		align-items: center;
+		font-size: 8px;
+		color: white;
+		font-size: larger;
+		text-decoration: underline;
+		text-underline-offset: .3em;
+		gap: .5em;
+		width: 100%;
+	}
+
+	footer img {
+		width: 1rem;
+	}
+}
+
+@media(min-width:768px) {
+	footer {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		gap: 10px;
+		background-color: #004C4C;
+		color: white;
+		padding-top: 2rem;
+		margin-inline: auto;
+	}
+
+	footer>section:nth-of-type(1) {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 1;
+		grid-row-start: 1;
+	}
+
+	footer>section:nth-of-type(2) {
+		grid-column-start: 3;
+		grid-column-end: 5;
+		grid-row-start: 1;
+		grid-row-start: 1;
+	}
+
+	footer>section:nth-of-type(3) {
+		grid-column: 1;
+		grid-row: 2;
+	}
+
+	footer>section:nth-of-type(4) {
+		grid-column: 2;
+		grid-row: 2;
+	}
+
+	footer>section:nth-of-type(5) {
+		grid-column: 3;
+		grid-row: 2;
+	}
+
+	footer>section:nth-of-type(6) {
+		grid-column: 4;
+		grid-row: 2;
+	}
+
+
+
+	footer section {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 90%;
+		border-radius: .5em;
+		margin-bottom: 4rem;
+	}
+
+	footer section svg {
+		max-width: 1.5em;
+		stroke: none;
+		fill: #ffffff;
+		margin-left: auto;
+		transition: all 0.15s ease-in-out;
+
+	}
+
+	footer section svg path {
+		fill: white;
+	}
+
+	footer section ul {
+		font-size: small;
+		list-style-type: none;
+		display: flex;
+		flex-direction: column;
+		gap: 1.1em;
+		align-items: start;
+		max-width: 100%;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	footer section ul li {
+		width: 100%;
+		list-style: none;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		line-height: 1.5rem;
+	}
+
+	footer section a:hover svg {
+		translate: .25em 0;
+	}
+
+	footer section a {
+		display: grid;
+		grid-template-columns: 2em auto;
+		align-items: center;
+		font-size: 8px;
+		color: white;
+		font-size: larger;
+		text-decoration: underline;
+		text-underline-offset: .3em;
+		gap: .5em;
+		width: 100%;
+	}
+
+
+	footer img {
+		width: 1rem;
+	}
+}

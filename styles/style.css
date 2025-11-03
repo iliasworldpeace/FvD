@@ -16,12 +16,7 @@
 	background-color: #f3f3f3;
 }
 
-a:focus,
-button:focus{
-	outline-color: red;
-	outline-style:groove;
-	outline-width: .2em;
-}
+
 
 
 /****************/
@@ -54,7 +49,7 @@ padding:1%;
 /****************/
 
 main>section:first-of-type {
-	margin-inline: -1rem;
+	margin-inline: 0;
 }
 
 main>section:first-of-type div {
@@ -66,7 +61,7 @@ main>section:first-of-type div {
 	flex-direction: column;
 	position: absolute;
 	top: 40%;
-	width: 90%;
+	width: 90vw;
 	height: auto;
 }
 
@@ -98,8 +93,8 @@ main>section:first-of-type div p {
 
 main>section:first-of-type img {
 	position: relative;
-	margin-inline: -1rem;
-	width: 100%;
+	margin-inline: auto;
+	width: 100vw;
 	height: 200px;
 	object-fit: cover;
 }
@@ -205,7 +200,7 @@ main>section:nth-of-type(2) input {
 	main>section:nth-of-type(3) {
 		margin-left: auto;
 		margin-right: auto;
-		max-width: 90vw;
+		max-width: 90%;
 		border-radius: .5em;
 		margin-bottom: 4rem;
 	}
@@ -272,7 +267,7 @@ main>section:nth-of-type(2) input {
 
 	/*phone*/
 	main>div:nth-of-type(1) {
-		max-width: 90vw;
+		max-width: 90%;
 		margin: 0 auto 1.5em;
 		display: grid;
 		grid-template-columns: 1fr;
@@ -280,7 +275,7 @@ main>section:nth-of-type(2) input {
 	}
 
 	main>div:nth-of-type(1)>section {
-		width: 90vw;
+		width: 90%;
 		display: flex;
 		flex-direction: column;
 		margin-left: auto;
@@ -346,7 +341,7 @@ main>section:nth-of-type(2) input {
 
 @media (min-width: 768px) {
 	main>div:nth-of-type(1) {
-		max-width: 90vw;
+		max-width: 90%;
 		margin: 0 auto 1.5em;
 		display: flex;
 		flex-wrap: wrap;
@@ -378,7 +373,7 @@ main>section:nth-of-type(2) input {
 
 @media (min-width: 1024px) {
 	main>div:nth-of-type(1) {
-		max-width: 90vw;
+		max-width: 90%;
 		margin: 0 auto 1.5em;
 		display: flex;
 		flex-wrap: nowrap;
@@ -409,7 +404,7 @@ main>section:nth-of-type(2) input {
 @media(min-width:1024) */
 @media(min-width:430px) {
 	main>section:nth-last-of-type(2) {
-		max-width: 90vw;
+		max-width: 90%;
 		display: flex;
 		flex-direction: column-reverse;
 		margin-left: auto;
@@ -431,7 +426,7 @@ main>section:nth-of-type(2) input {
 		margin-top:1em;
 	}
 
-	main>section:nth-last-of-type(2) article h2,
+	main>section:nth-last-of-type(2) article h3,
 	main>section:nth-last-of-type(2) article p{
 		margin-block: 0;
 	}
@@ -444,7 +439,8 @@ main>section:nth-of-type(2) input {
 		order: 1;
 		display: block;
 		max-width: 100%;
-		border-radius: 6%;
+		border-radius: 1.5vmax;
+		
 	}
 
 	main>section:nth-last-of-type(1) h3,
@@ -499,7 +495,7 @@ main>section:nth-of-type(2) input {
 	}
 
 	main>section:nth-last-of-type(1) article {
-		max-width: 90vw;
+		max-width: 90%;
 		display: flex;
 		flex-direction: column;
 		margin-inline: auto;
@@ -618,13 +614,17 @@ main>section:nth-of-type(2) input {
 		background-color: #004C4C;
 		color: white;
 		padding-top: 2rem;
-		margin-inline: -1rem;
+		margin-inline: auto;
+	}
+
+	footer div{
+		background-color: #003737;
 	}
 
 	footer section {
 		margin-left: auto;
 		margin-right: auto;
-		max-width: 90vw;
+		max-width: 90%;
 		border-radius: .5em;
 		margin-bottom: 4rem;
 	}
@@ -694,7 +694,7 @@ main>section:nth-of-type(2) input {
 		background-color: #004C4C;
 		color: white;
 		padding-top: 2rem;
-		margin-inline: -1rem;
+		margin-inline: auto;
 	}
 
 	footer>section:nth-of-type(1) {
@@ -736,7 +736,7 @@ main>section:nth-of-type(2) input {
 	footer section {
 		margin-left: auto;
 		margin-right: auto;
-		max-width: 90vw;
+		max-width: 90%;
 		border-radius: .5em;
 		margin-bottom: 4rem;
 	}
@@ -831,7 +831,7 @@ main>section:nth-of-type(2) input {
 		color: #eee;
 	}
 
-	nav img:nth-of-type(1){
+	nav>img:nth-of-type(1){
 		content: url("../images/home/ABNamro_dark.png")
 	}
 
@@ -892,10 +892,9 @@ main>section:nth-of-type(2) input {
 	main>section:nth-of-type(5) ul li article h3{
 		color:#0e262c;
 	}
+}
 
-	@media (max-width:768px){
-		main>section:nth-of-type(4){
-			background-color: transparent;
-		}
-	}
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
 }
