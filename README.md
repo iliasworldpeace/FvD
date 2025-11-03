@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+  Ilias Khamal
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+  Rood
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  Responsiveness
  
 </details>
 
@@ -36,15 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  wwww.abnamro.nl
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Home
+  <img src="readme-images/index.jpeg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Hypotheken
+  <img src="readme-images/hypotheek.jpeg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -52,11 +52,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Toegankelijkheidstest 1/2 (week 1)
 
-<details>
+<details open>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+
+  -Site heeft geen darkmode, erg opmerkelijk want het is de website van een van de grootste banken van Nederland
+
+  -Geen media (audio of video) op de pagina's
+
+  -Super responsive
+
+  -Weinig alts op foto's 
+
+  -Geen custom ::selection
 
 </details>
 
@@ -68,13 +78,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/schets.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="heb ik niet helaas">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="heb ik ook niet helaas">
 
 </details>
 
@@ -84,7 +94,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Voortgang 1 (week 2)
 
-<details>
+<details open>
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
@@ -94,20 +104,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Beyzanur       | Quinten            | Quincy       | Zakaria          | Ilias|
+  | ---            | ---                | ---          | ---              | Algemene feedback HTML|
+  | Navigatie menu | Image achter tekst | Volgorde Html| en dan ik dat    | Wanner wel/geen section|
+  |                | Carousel           | Inspringen   | dit wil ik zeker |
+  | ...            | List aanspreken    | ...          | ...              |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Mijn html zag er netjes uit
+  - weet nu wanneer het gepast is sections te gebruiken en wanneer andere containers
 
 </details>
 
@@ -117,7 +125,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Voortgang 2 (week 3)
 
-<details>
+<details open>
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
@@ -127,20 +135,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Quinten                        | Quincy             | Beyzanur                    | Zakaria          |
+  | ---                            | ---                | ---                         | ---              |
+  |Hero zorgt voor                 | sticky nav werkt   | Moeite met lijst stylen     | Flexbox moeite   |
+  | x-scroll                       | niet| nog een punt | en hamburger menu           |                  |
+  |Grid lukt niet met ul/li        | ...                | ...                         | ...              |
 
+Ilias:
+Moeite met image resizen
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - image resizen had alleen object-fit: cover; nodig
 
 </details>
 
@@ -150,12 +157,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Toegankelijkheidstest 2/2 (week 4)
 
-<details>
+<details open>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
-
+- moet nog erg werken aan responsiveness
+- wel darkmode die de originele website niet heeft
+- focus volgorde werkt
+- screenreader werkt
 </details>
 
 
@@ -174,20 +184,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Beyzanur       | Quincy                 | Quinten           | Ilias            |
+  | ---            | ---                    | ---               | ---              |
+  | Hamburger menu | achtergrond veranderen | lukt niet om 2e   | Wanneer divs te  |
+  | Pagina 0 margin| bij scrollen           | ul aan te spreken | gebruiken?       |
+  | ...            | ...                    | ...               | ...              |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  nooit divs gebruiken !!! (behalve soms)
 
 </details>
 
@@ -201,19 +208,31 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/resultaat.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik heb immens veel geleerd over positioneren en layouts met grid en flexbox, 
+  ik denk dat ik oprecht voor dit vak misschien 15% de hoeveelheid kennis hierover
+  had ten opzichte van nu, vooral grid want die kende ik eigenlijk helemaal niet maar
+  die heeft wel mijn voorkeur over flex vooral voor complexere layouts. Heb ook
+  super veel geleerd over toegankelijkheid en responsiveness, het was interessant
+  om te werken met de @media queries waarvan ik ook eerst niet wist dat ze bestonden.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  De kennis die ik heb op gedaan bij dit vak heeft me gemotiveerd om een nieuwe
+  verbeterde versie van mijn portfolio website te maken met de kennis die ik nu heb.
+  Ik ben trots op mezelf dat ik in een redelijk korte tijd zo veel dingen heb kunnen
+  leren en ook gelijk kunnen gebruiken.
+
+  <img src="readme-images/geleerd.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Javascript is wel mijn zwaktepunt heb ik gemerkt. Daarnaast was ik in tijdsnood gekomen waardoor
+  ik bijvoorbeeld niet alle menu's heb kunnen uitwerken en er ook nog wat layout/styling foutjes
+  zijn waardoor de site niet 1:1 overeenkomt met de originele abn site.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/nietmooi.png" width="375px" alt="bummer">
 </details>
 
 
@@ -229,8 +248,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. ChatGPT voor een stukje code om te helpen met viewport width
+  2. Mats Groot voor javascript
+  3. ChatGPT en MDN voor algemene raadpleging maar niet gekopiëerd
+  4. the a11y project voor visually hidden h1
 
+Over het algemeen niet super veel bronnen gebruikt... wel vaker ChatGPT geraadpleegd maar dat was dan om 
+te begrijpen hoe dingen werken en niet om letterlijk code te kopiëren en te plakken. Heb van een medestuden
+(Mats Groot) hulp gekregen met de JavaScript want dat is niet mijn sterkste kant.
 </details>
