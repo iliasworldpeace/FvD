@@ -59,14 +59,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen:
 
   -Site heeft geen darkmode, erg opmerkelijk want het is de website van een van de grootste banken van Nederland
+  <img src="readme-images/darkmode.png">
 
-  -Geen media (audio of video) op de pagina's
+  -Geen media (audio of video) op de pagina's, dus dat deel van de toegankelijkheidsttest kan ik niet beoordelen
 
   -Super responsive
+  <img src="readme-images/responsiveness.png">
 
-  -Weinig alts op foto's 
+  -Weinig alts op foto's, alt hebben classes?
+  <img src="readme-images/altabnamro.png" width="375px" alt=" alt op de abn website">
 
-  -Geen custom ::selection
+  -Geen custom ::selection, voor de rest ken ik ook niet heel veel websites die dat wèl doen
 
 </details>
 
@@ -164,8 +167,13 @@ Moeite met image resizen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 - moet nog erg werken aan responsiveness
 - wel darkmode die de originele website niet heeft
+<img src="readme-images/darkmodeilias.png" width="375px">
 - focus volgorde werkt
-- screenreader werkt
+- screenreader werkt, leest de kopjes in de jusite volgorde voor
+- screen rotating werkt
+<img src="readme-images/vertical.png" width="375px">
+<img src="readme-images/horizontaal.png" width="375px">
+
 </details>
 
 
